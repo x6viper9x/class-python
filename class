@@ -1,0 +1,29 @@
+import math as m
+
+def mashgh_1(a,b):
+    return((a // b) * m.log(a // b))
+print("hasel", mashgh_1(80,3))
+
+////////////////////////
+
+def mashgh_2(n):
+    return(1 // 1+m.exp(-n))
+print("hasel", mashgh_2(int(input("enter number: "))))
+
+////////////////////////
+
+def mashgh_3(k):
+    return(m.exp(k) // m.exp(k**2))
+print("hasel", mashgh_3(int(input("enter number: "))))
+
+////////////////////////
+
+def mashgh_4(p,q,r):
+    return((1 // p) * (q-r))
+print("hasel", mashgh_4(2,40,5))
+
+////////////////////////
+
+def mashgh_5(t,V):
+    return(m.sqrt(t * m.log(V)))
+print("hasel", mashgh_5(15,3))
